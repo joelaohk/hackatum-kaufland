@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0FE151C21A023A0006A6884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE151B21A023A0006A6884 /* AppDelegate.swift */; };
+		D0FE151E21A023A0006A6884 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE151D21A023A0006A6884 /* ViewController.swift */; };
+		D0FE152121A023A0006A6884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FE151F21A023A0006A6884 /* Main.storyboard */; };
+		D0FE152421A023A0006A6884 /* kauland_thing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0FE152221A023A0006A6884 /* kauland_thing.xcdatamodeld */; };
+		D0FE152621A023A7006A6884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0FE152521A023A7006A6884 /* Assets.xcassets */; };
+		D0FE152921A023A7006A6884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FE152721A023A7006A6884 /* LaunchScreen.storyboard */; };
+		D0FE153421A023AC006A6884 /* kauland_thingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE153321A023AC006A6884 /* kauland_thingTests.swift */; };
+		D0FE153F21A023AC006A6884 /* kauland_thingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE153E21A023AC006A6884 /* kauland_thingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0FE153021A023AC006A6884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0FE151021A023A0006A6884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0FE151721A023A0006A6884;
+			remoteInfo = "kauland-thing";
+		};
+		D0FE153B21A023AC006A6884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0FE151021A023A0006A6884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0FE151721A023A0006A6884;
+			remoteInfo = "kauland-thing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0FE151821A023A0006A6884 /* kauland-thing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kauland-thing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FE151B21A023A0006A6884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0FE151D21A023A0006A6884 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0FE152021A023A0006A6884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0FE152321A023A0006A6884 /* kauland_thing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = kauland_thing.xcdatamodel; sourceTree = "<group>"; };
+		D0FE152521A023A7006A6884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0FE152821A023A7006A6884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0FE152A21A023A8006A6884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0FE152F21A023AC006A6884 /* kauland-thingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kauland-thingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FE153321A023AC006A6884 /* kauland_thingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kauland_thingTests.swift; sourceTree = "<group>"; };
+		D0FE153521A023AC006A6884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0FE153A21A023AC006A6884 /* kauland-thingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kauland-thingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FE153E21A023AC006A6884 /* kauland_thingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kauland_thingUITests.swift; sourceTree = "<group>"; };
+		D0FE154021A023AC006A6884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0FE151521A023A0006A6884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FE152C21A023AC006A6884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FE153721A023AC006A6884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0FE150F21A023A0006A6884 = {
+			isa = PBXGroup;
+			children = (
+				D0FE151A21A023A0006A6884 /* kauland-thing */,
+				D0FE153221A023AC006A6884 /* kauland-thingTests */,
+				D0FE153D21A023AC006A6884 /* kauland-thingUITests */,
+				D0FE151921A023A0006A6884 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0FE151921A023A0006A6884 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0FE151821A023A0006A6884 /* kauland-thing.app */,
+				D0FE152F21A023AC006A6884 /* kauland-thingTests.xctest */,
+				D0FE153A21A023AC006A6884 /* kauland-thingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0FE151A21A023A0006A6884 /* kauland-thing */ = {
+			isa = PBXGroup;
+			children = (
+				D0FE151B21A023A0006A6884 /* AppDelegate.swift */,
+				D0FE151D21A023A0006A6884 /* ViewController.swift */,
+				D0FE151F21A023A0006A6884 /* Main.storyboard */,
+				D0FE152521A023A7006A6884 /* Assets.xcassets */,
+				D0FE152721A023A7006A6884 /* LaunchScreen.storyboard */,
+				D0FE152A21A023A8006A6884 /* Info.plist */,
+				D0FE152221A023A0006A6884 /* kauland_thing.xcdatamodeld */,
+			);
+			path = "kauland-thing";
+			sourceTree = "<group>";
+		};
+		D0FE153221A023AC006A6884 /* kauland-thingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0FE153321A023AC006A6884 /* kauland_thingTests.swift */,
+				D0FE153521A023AC006A6884 /* Info.plist */,
+			);
+			path = "kauland-thingTests";
+			sourceTree = "<group>";
+		};
+		D0FE153D21A023AC006A6884 /* kauland-thingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0FE153E21A023AC006A6884 /* kauland_thingUITests.swift */,
+				D0FE154021A023AC006A6884 /* Info.plist */,
+			);
+			path = "kauland-thingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0FE151721A023A0006A6884 /* kauland-thing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0FE154321A023AC006A6884 /* Build configuration list for PBXNativeTarget "kauland-thing" */;
+			buildPhases = (
+				D0FE151421A023A0006A6884 /* Sources */,
+				D0FE151521A023A0006A6884 /* Frameworks */,
+				D0FE151621A023A0006A6884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kauland-thing";
+			productName = "kauland-thing";
+			productReference = D0FE151821A023A0006A6884 /* kauland-thing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0FE152E21A023AC006A6884 /* kauland-thingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0FE154621A023AC006A6884 /* Build configuration list for PBXNativeTarget "kauland-thingTests" */;
+			buildPhases = (
+				D0FE152B21A023AC006A6884 /* Sources */,
+				D0FE152C21A023AC006A6884 /* Frameworks */,
+				D0FE152D21A023AC006A6884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0FE153121A023AC006A6884 /* PBXTargetDependency */,
+			);
+			name = "kauland-thingTests";
+			productName = "kauland-thingTests";
+			productReference = D0FE152F21A023AC006A6884 /* kauland-thingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0FE153921A023AC006A6884 /* kauland-thingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0FE154921A023AC006A6884 /* Build configuration list for PBXNativeTarget "kauland-thingUITests" */;
+			buildPhases = (
+				D0FE153621A023AC006A6884 /* Sources */,
+				D0FE153721A023AC006A6884 /* Frameworks */,
+				D0FE153821A023AC006A6884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0FE153C21A023AC006A6884 /* PBXTargetDependency */,
+			);
+			name = "kauland-thingUITests";
+			productName = "kauland-thingUITests";
+			productReference = D0FE153A21A023AC006A6884 /* kauland-thingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0FE151021A023A0006A6884 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Joe Lao";
+				TargetAttributes = {
+					D0FE151721A023A0006A6884 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D0FE152E21A023AC006A6884 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D0FE151721A023A0006A6884;
+					};
+					D0FE153921A023AC006A6884 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D0FE151721A023A0006A6884;
+					};
+				};
+			};
+			buildConfigurationList = D0FE151321A023A0006A6884 /* Build configuration list for PBXProject "kauland-thing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0FE150F21A023A0006A6884;
+			productRefGroup = D0FE151921A023A0006A6884 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0FE151721A023A0006A6884 /* kauland-thing */,
+				D0FE152E21A023AC006A6884 /* kauland-thingTests */,
+				D0FE153921A023AC006A6884 /* kauland-thingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0FE151621A023A0006A6884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FE152921A023A7006A6884 /* LaunchScreen.storyboard in Resources */,
+				D0FE152621A023A7006A6884 /* Assets.xcassets in Resources */,
+				D0FE152121A023A0006A6884 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FE152D21A023AC006A6884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FE153821A023AC006A6884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0FE151421A023A0006A6884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FE151E21A023A0006A6884 /* ViewController.swift in Sources */,
+				D0FE151C21A023A0006A6884 /* AppDelegate.swift in Sources */,
+				D0FE152421A023A0006A6884 /* kauland_thing.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FE152B21A023AC006A6884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FE153421A023AC006A6884 /* kauland_thingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FE153621A023AC006A6884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FE153F21A023AC006A6884 /* kauland_thingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0FE153121A023AC006A6884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0FE151721A023A0006A6884 /* kauland-thing */;
+			targetProxy = D0FE153021A023AC006A6884 /* PBXContainerItemProxy */;
+		};
+		D0FE153C21A023AC006A6884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0FE151721A023A0006A6884 /* kauland-thing */;
+			targetProxy = D0FE153B21A023AC006A6884 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0FE151F21A023A0006A6884 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0FE152021A023A0006A6884 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0FE152721A023A7006A6884 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0FE152821A023A7006A6884 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0FE154121A023AC006A6884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0FE154221A023AC006A6884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0FE154421A023AC006A6884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97Z8NJMV38;
+				INFOPLIST_FILE = "kauland-thing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelaohk.kauland-thing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0FE154521A023AC006A6884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97Z8NJMV38;
+				INFOPLIST_FILE = "kauland-thing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelaohk.kauland-thing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0FE154721A023AC006A6884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97Z8NJMV38;
+				INFOPLIST_FILE = "kauland-thingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelaohk.kauland-thingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kauland-thing.app/kauland-thing";
+			};
+			name = Debug;
+		};
+		D0FE154821A023AC006A6884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97Z8NJMV38;
+				INFOPLIST_FILE = "kauland-thingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelaohk.kauland-thingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kauland-thing.app/kauland-thing";
+			};
+			name = Release;
+		};
+		D0FE154A21A023AC006A6884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97Z8NJMV38;
+				INFOPLIST_FILE = "kauland-thingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelaohk.kauland-thingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "kauland-thing";
+			};
+			name = Debug;
+		};
+		D0FE154B21A023AC006A6884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97Z8NJMV38;
+				INFOPLIST_FILE = "kauland-thingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelaohk.kauland-thingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "kauland-thing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0FE151321A023A0006A6884 /* Build configuration list for PBXProject "kauland-thing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE154121A023AC006A6884 /* Debug */,
+				D0FE154221A023AC006A6884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0FE154321A023AC006A6884 /* Build configuration list for PBXNativeTarget "kauland-thing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE154421A023AC006A6884 /* Debug */,
+				D0FE154521A023AC006A6884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0FE154621A023AC006A6884 /* Build configuration list for PBXNativeTarget "kauland-thingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE154721A023AC006A6884 /* Debug */,
+				D0FE154821A023AC006A6884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0FE154921A023AC006A6884 /* Build configuration list for PBXNativeTarget "kauland-thingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE154A21A023AC006A6884 /* Debug */,
+				D0FE154B21A023AC006A6884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D0FE152221A023A0006A6884 /* kauland_thing.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D0FE152321A023A0006A6884 /* kauland_thing.xcdatamodel */,
+			);
+			currentVersion = D0FE152321A023A0006A6884 /* kauland_thing.xcdatamodel */;
+			path = kauland_thing.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D0FE151021A023A0006A6884 /* Project object */;
+}
