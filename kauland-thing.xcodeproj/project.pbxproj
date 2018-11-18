@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D7F64FB770C82397375ABAD /* Pods_kauland_thingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBA4BA21B811E1814BD0B7D /* Pods_kauland_thingUITests.framework */; };
+		8D85D0B1F330B2411B69E22A /* Pods_kauland_thingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A00B54EE6B5AE72B2E79FD /* Pods_kauland_thingTests.framework */; };
+		D0B6C76F21A0CDE2005AC418 /* identifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D0B6C76E21A0CDE2005AC418 /* identifier.mlmodel */; };
+		D0C4B4C421A0D7DB00ABD75D /* identifier_dav.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D0C4B4C321A0D7DB00ABD75D /* identifier_dav.mlmodel */; };
+		D0C4B4C621A0D7E400ABD75D /* identifier_5.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D0C4B4C521A0D7E400ABD75D /* identifier_5.mlmodel */; };
 		D0FE151C21A023A0006A6884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE151B21A023A0006A6884 /* AppDelegate.swift */; };
 		D0FE151E21A023A0006A6884 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE151D21A023A0006A6884 /* ViewController.swift */; };
-		D0FE152121A023A0006A6884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FE151F21A023A0006A6884 /* Main.storyboard */; };
-		D0FE152421A023A0006A6884 /* kauland_thing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0FE152221A023A0006A6884 /* kauland_thing.xcdatamodeld */; };
 		D0FE152621A023A7006A6884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0FE152521A023A7006A6884 /* Assets.xcassets */; };
 		D0FE152921A023A7006A6884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FE152721A023A7006A6884 /* LaunchScreen.storyboard */; };
 		D0FE153421A023AC006A6884 /* kauland_thingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE153321A023AC006A6884 /* kauland_thingTests.swift */; };
 		D0FE153F21A023AC006A6884 /* kauland_thingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE153E21A023AC006A6884 /* kauland_thingUITests.swift */; };
+		D0FE155121A0A944006A6884 /* thing.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D0FE155021A0A943006A6884 /* thing.mlmodel */; };
+		D1FA57369ACBF2669376541C /* Pods_kauland_thing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF064F325E30D338E4349BA1 /* Pods_kauland_thing.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +40,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0251584DA554A56FF17897CA /* Pods-kauland-thingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kauland-thingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kauland-thingTests/Pods-kauland-thingTests.release.xcconfig"; sourceTree = "<group>"; };
+		2467B606D948893FD95496C5 /* Pods-kauland-thing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kauland-thing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kauland-thing/Pods-kauland-thing.debug.xcconfig"; sourceTree = "<group>"; };
+		3BBA4BA21B811E1814BD0B7D /* Pods_kauland_thingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kauland_thingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A00B54EE6B5AE72B2E79FD /* Pods_kauland_thingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kauland_thingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51CABEF297FC11D7710009A6 /* Pods-kauland-thing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kauland-thing.release.xcconfig"; path = "Pods/Target Support Files/Pods-kauland-thing/Pods-kauland-thing.release.xcconfig"; sourceTree = "<group>"; };
+		CFDDF5A98DCA40069B438308 /* Pods-kauland-thingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kauland-thingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kauland-thingTests/Pods-kauland-thingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0B6C76E21A0CDE2005AC418 /* identifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = identifier.mlmodel; sourceTree = "<group>"; };
+		D0C4B4C321A0D7DB00ABD75D /* identifier_dav.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = identifier_dav.mlmodel; sourceTree = "<group>"; };
+		D0C4B4C521A0D7E400ABD75D /* identifier_5.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = identifier_5.mlmodel; sourceTree = "<group>"; };
 		D0FE151821A023A0006A6884 /* kauland-thing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kauland-thing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FE151B21A023A0006A6884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0FE151D21A023A0006A6884 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D0FE152021A023A0006A6884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D0FE152321A023A0006A6884 /* kauland_thing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = kauland_thing.xcdatamodel; sourceTree = "<group>"; };
 		D0FE152521A023A7006A6884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0FE152821A023A7006A6884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0FE152A21A023A8006A6884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +61,10 @@
 		D0FE153A21A023AC006A6884 /* kauland-thingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kauland-thingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FE153E21A023AC006A6884 /* kauland_thingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kauland_thingUITests.swift; sourceTree = "<group>"; };
 		D0FE154021A023AC006A6884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0FE155021A0A943006A6884 /* thing.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = thing.mlmodel; sourceTree = "<group>"; };
+		DF064F325E30D338E4349BA1 /* Pods_kauland_thing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kauland_thing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1DAA1455AE4E4327D4E07A /* Pods-kauland-thingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kauland-thingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kauland-thingUITests/Pods-kauland-thingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD73A4478103DE8E7F949147 /* Pods-kauland-thingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kauland-thingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kauland-thingUITests/Pods-kauland-thingUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1FA57369ACBF2669376541C /* Pods_kauland_thing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D85D0B1F330B2411B69E22A /* Pods_kauland_thingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D7F64FB770C82397375ABAD /* Pods_kauland_thingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6353EE95C971F0194962D633 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2467B606D948893FD95496C5 /* Pods-kauland-thing.debug.xcconfig */,
+				51CABEF297FC11D7710009A6 /* Pods-kauland-thing.release.xcconfig */,
+				CFDDF5A98DCA40069B438308 /* Pods-kauland-thingTests.debug.xcconfig */,
+				0251584DA554A56FF17897CA /* Pods-kauland-thingTests.release.xcconfig */,
+				FB1DAA1455AE4E4327D4E07A /* Pods-kauland-thingUITests.debug.xcconfig */,
+				FD73A4478103DE8E7F949147 /* Pods-kauland-thingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8EF6484E229D86AD4E788965 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF064F325E30D338E4349BA1 /* Pods_kauland_thing.framework */,
+				45A00B54EE6B5AE72B2E79FD /* Pods_kauland_thingTests.framework */,
+				3BBA4BA21B811E1814BD0B7D /* Pods_kauland_thingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D0FE150F21A023A0006A6884 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +125,8 @@
 				D0FE153221A023AC006A6884 /* kauland-thingTests */,
 				D0FE153D21A023AC006A6884 /* kauland-thingUITests */,
 				D0FE151921A023A0006A6884 /* Products */,
+				6353EE95C971F0194962D633 /* Pods */,
+				8EF6484E229D86AD4E788965 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +145,13 @@
 			children = (
 				D0FE151B21A023A0006A6884 /* AppDelegate.swift */,
 				D0FE151D21A023A0006A6884 /* ViewController.swift */,
-				D0FE151F21A023A0006A6884 /* Main.storyboard */,
 				D0FE152521A023A7006A6884 /* Assets.xcassets */,
 				D0FE152721A023A7006A6884 /* LaunchScreen.storyboard */,
+				D0FE155021A0A943006A6884 /* thing.mlmodel */,
+				D0C4B4C321A0D7DB00ABD75D /* identifier_dav.mlmodel */,
+				D0C4B4C521A0D7E400ABD75D /* identifier_5.mlmodel */,
+				D0B6C76E21A0CDE2005AC418 /* identifier.mlmodel */,
 				D0FE152A21A023A8006A6884 /* Info.plist */,
-				D0FE152221A023A0006A6884 /* kauland_thing.xcdatamodeld */,
 			);
 			path = "kauland-thing";
 			sourceTree = "<group>";
@@ -135,6 +181,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0FE154321A023AC006A6884 /* Build configuration list for PBXNativeTarget "kauland-thing" */;
 			buildPhases = (
+				74C536BA7F18A800DA6620A8 /* [CP] Check Pods Manifest.lock */,
 				D0FE151421A023A0006A6884 /* Sources */,
 				D0FE151521A023A0006A6884 /* Frameworks */,
 				D0FE151621A023A0006A6884 /* Resources */,
@@ -152,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0FE154621A023AC006A6884 /* Build configuration list for PBXNativeTarget "kauland-thingTests" */;
 			buildPhases = (
+				C8AE6A496D636742D23F0763 /* [CP] Check Pods Manifest.lock */,
 				D0FE152B21A023AC006A6884 /* Sources */,
 				D0FE152C21A023AC006A6884 /* Frameworks */,
 				D0FE152D21A023AC006A6884 /* Resources */,
@@ -170,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0FE154921A023AC006A6884 /* Build configuration list for PBXNativeTarget "kauland-thingUITests" */;
 			buildPhases = (
+				56D3859F2220602DCDC85015 /* [CP] Check Pods Manifest.lock */,
 				D0FE153621A023AC006A6884 /* Sources */,
 				D0FE153721A023AC006A6884 /* Frameworks */,
 				D0FE153821A023AC006A6884 /* Resources */,
@@ -234,7 +283,6 @@
 			files = (
 				D0FE152921A023A7006A6884 /* LaunchScreen.storyboard in Resources */,
 				D0FE152621A023A7006A6884 /* Assets.xcassets in Resources */,
-				D0FE152121A023A0006A6884 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +302,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		56D3859F2220602DCDC85015 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kauland-thingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74C536BA7F18A800DA6620A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kauland-thing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8AE6A496D636742D23F0763 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kauland-thingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D0FE151421A023A0006A6884 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D0FE151E21A023A0006A6884 /* ViewController.swift in Sources */,
+				D0C4B4C621A0D7E400ABD75D /* identifier_5.mlmodel in Sources */,
+				D0B6C76F21A0CDE2005AC418 /* identifier.mlmodel in Sources */,
 				D0FE151C21A023A0006A6884 /* AppDelegate.swift in Sources */,
-				D0FE152421A023A0006A6884 /* kauland_thing.xcdatamodeld in Sources */,
+				D0C4B4C421A0D7DB00ABD75D /* identifier_dav.mlmodel in Sources */,
+				D0FE155121A0A944006A6884 /* thing.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +405,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D0FE151F21A023A0006A6884 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0FE152021A023A0006A6884 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D0FE152721A023A7006A6884 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -434,6 +534,7 @@
 		};
 		D0FE154421A023AC006A6884 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2467B606D948893FD95496C5 /* Pods-kauland-thing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +553,7 @@
 		};
 		D0FE154521A023AC006A6884 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51CABEF297FC11D7710009A6 /* Pods-kauland-thing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +572,7 @@
 		};
 		D0FE154721A023AC006A6884 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFDDF5A98DCA40069B438308 /* Pods-kauland-thingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +594,7 @@
 		};
 		D0FE154821A023AC006A6884 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0251584DA554A56FF17897CA /* Pods-kauland-thingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +616,7 @@
 		};
 		D0FE154A21A023AC006A6884 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB1DAA1455AE4E4327D4E07A /* Pods-kauland-thingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +637,7 @@
 		};
 		D0FE154B21A023AC006A6884 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD73A4478103DE8E7F949147 /* Pods-kauland-thingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -590,19 +696,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		D0FE152221A023A0006A6884 /* kauland_thing.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				D0FE152321A023A0006A6884 /* kauland_thing.xcdatamodel */,
-			);
-			currentVersion = D0FE152321A023A0006A6884 /* kauland_thing.xcdatamodel */;
-			path = kauland_thing.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = D0FE151021A023A0006A6884 /* Project object */;
 }
